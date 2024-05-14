@@ -8,7 +8,7 @@ import java.io.IOException;
 public class TestHisto {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        GreyImage greyImage = GreyImage.loadPGM("C:/Users/thoma/git/JavaAnnee2Sem1/traitementImageTp1/imgs/mandrill.pgm");
+        GreyImage greyImage = GreyImage.loadPGM("C:/Users/thoma/git/JavaAnnee2Sem1/traitementImageTp1/imgs_histogramme/badHisto.pgm");
 
         if (greyImage == null) {
             System.out.println("Erreur au chargement de l'image.");
